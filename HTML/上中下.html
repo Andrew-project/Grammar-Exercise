@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>head-content-foot自适应</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /*绝对定位布局*/
+        /*.box {*/
+        /*    width: 100%;*/
+        /*    height: 100%;*/
+        /*    margin: 0;*/
+        /*    padding: 0;*/
+        /*    !*display: flex;*!*/
+        /*    !*flex-direction: column;*!*/
+        /*    !*align-items: center;*!*/
+        /*}*/
+
+        /*.header {*/
+        /*    background: #999999;*/
+        /*    position: absolute;*/
+        /*    left: 0;*/
+        /*    top: 0;*/
+        /*    right: 0;*/
+        /*    width: 100%;*/
+        /*    height: 60px;*/
+        /*    align-content: center;*/
+        /*    !*flex: 1;*!*/
+        /*}*/
+
+        /*.content {*/
+        /*    position: absolute;*/
+        /*    top: 60px;*/
+        /*    bottom: 60px;*/
+        /*    left: 0;*/
+        /*    width: 100%;*/
+        /*    overflow: auto;*/
+        /*    background: antiquewhite;*/
+        /*}*/
+
+        /*.footer {*/
+        /*    background: #00c1c1;*/
+        /*    text-align: center;*/
+        /*    position: absolute;*/
+        /*    bottom: 0;*/
+        /*    left: 0;*/
+        /*    right: 0;*/
+        /*    width: 100%;*/
+        /*    height: 60px;*/
+        /*}*/
+
+        /*flex布局*/
+        .box {
+            display: -webkit-flex;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+
+        .header {
+            background: #999999;
+            height: 60px;
+        }
+
+        .content {
+            flex: 1;
+            width: 100%;
+            background: coral;
+            overflow-y: auto;
+        }
+
+        .footer {
+            background: burlywood;
+            height: 60px;
+        }
+    </style>
+<body>
+<div class="box">
+    <div class="header">header</div>
+    <div class="content">
+        我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+        我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+        我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+        我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>我是自适应实现的布局<br>
+    </div>
+    <div class="footer">footer</div>
+</div>
+</body>
+</head>
+</html>
