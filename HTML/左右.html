@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>左边固定，右自适应</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            margin-bottom: 40px;
+        }
+
+        .box .left {
+            background: coral;
+        }
+
+        .box .right {
+            background: bisque;
+        }
+
+        .box:after {
+            content: '';
+            height: 0;
+            line-height: 0;
+            display: block;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .box1 .left {
+            width: 200px;
+            float: left;
+        }
+
+        .box1 .right {
+            overflow: hidden;
+        }
+
+        .box2 .left {
+            width: 200px;
+            float: left;
+        }
+
+        .box2 .right {
+            margin-left: 200px;
+        }
+
+        .box3 {
+            display: flex;
+        }
+
+        .box3 .right {
+            flex: 1 1 auto;
+            /*flex-grow: 1;*/
+        }
+
+        .box4 {
+            display: table;
+        }
+        .box4 .left, .box4 .right {
+            display: table-cell;
+        }
+    </style>
+</head>
+<body>
+<div class="box box1">
+    <div class="left">
+        float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局
+    </div>
+    <div class="right">
+        float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局
+        float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局
+        float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局 float+overflow布局
+        float+overflow布局
+    </div>
+</div>
+<div class="box box2">
+    <div class="left">
+        float+margin-left布局 float+margin-left布局 float+margin-left布局 float+margin-left布局 float+margin-left布局
+        float+margin-left布局
+    </div>
+    <div class="right">
+        float+margin-left布局 float+margin-left布局 float+margin-left布局 float+margin-left布局 float+margin-left布局
+        float+margin-left布局 float+margin-left布局 float+margin-left布局 float+margin-left布局 float+margin-left布局
+        float+margin-left布局
+    </div>
+</div>
+<div class="box box3">
+    <div class="left">
+        flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局
+    </div>
+    <div class="right">
+        flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局
+        flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局 flex布局
+        flex布局
+    </div>
+</div>
+<div class="box box4">
+    <div class="left">
+        table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局
+    </div>
+    <div class="right">
+        table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局 table-cell布局
+    </div>
+</div>
+</body>
+</html>
