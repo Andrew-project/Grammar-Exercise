@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f487d267-87c5-42e6-9e9c-fc6ecf0fbcaa" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/HTML/左中右.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/左右.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/左右.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +17,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML/左中右.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/左右.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+            <state relative-caret-position="471">
+              <caret line="34" column="23" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -40,6 +49,7 @@
         <option value="$PROJECT_DIR$/HTML/上中下.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/HTML/左右.html" />
+        <option value="$PROJECT_DIR$/HTML/左中右.html" />
       </list>
     </option>
   </component>
@@ -119,18 +129,18 @@
       <workItem from="1542598453802" duration="4432000" />
       <workItem from="1554716544610" duration="4210000" />
       <workItem from="1554775595298" duration="6180000" />
-      <workItem from="1554876806065" duration="4341000" />
+      <workItem from="1554876806065" duration="7776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19163000" />
+    <option name="totallyTimeSpent" value="22598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1295" y="-174" width="1846" height="1012" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16383561" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16383561" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -142,7 +152,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32953367" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4994737" visible="true" weight="0.24021739" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4994737" visible="true" weight="0.12065218" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005263" side_tool="true" weight="0.3253886" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -178,8 +188,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/左右.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="83" column="22" selection-start-line="83" selection-start-column="22" selection-end-line="83" selection-end-column="22" />
+        <state relative-caret-position="471">
+          <caret line="34" column="23" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML/左中右.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>

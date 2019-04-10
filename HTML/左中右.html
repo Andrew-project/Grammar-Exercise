@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>左、右固定，中间自适应</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+    html, body {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+
+    .box {
+        margin-bottom: 60px;
+    }
+
+    .box:after {
+        content: '';
+        clear: both;
+        height: 0;
+        line-height: 0;
+        display: block;
+    }
+
+    .box .left {
+        background: bisque;
+        width: 200px;
+    }
+
+    .box .content {
+        background: #00c1c1;
+    }
+
+    .box .right {
+        background: coral;
+        width: 200px;
+    }
+
+
+    .box1 .left {
+        float: left;
+    }
+
+    .box1 .content {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .box1 .right {
+        float: right;
+    }
+
+    .box2 {
+        position: relative;
+    }
+
+    .box2 .left, .box2 .right {
+        position: absolute;
+        top: 0;
+    }
+
+    .box2 .left {
+        left: 0;
+    }
+
+    .box2 .right {
+        right: 0
+    }
+
+    .box2 .content {
+        margin: 0 200px;
+    }
+
+    .box3 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .box3 .content {
+        flex: 1;
+    }
+
+    .box4 {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+
+    .box4 .left {
+        float: left;
+        margin-left: -100%;
+        position: relative;
+        right: 200px;
+    }
+
+    .box4 .content {
+        width: 100%;
+        float: left;
+
+    }
+
+    .box4 .right {
+        float: left;
+        margin-right: -200px;
+    }
+
+
+    .box5 .left {
+        float: left;
+        margin-left: -100%;
+    }
+
+    .box5 .content {
+        width: 100%;
+        float: left;
+    }
+    .box5 .content .center {
+        margin: 0 200px;
+    }
+
+    .box5 .right {
+        float: left;
+        margin-left: -200px;
+    }
+</style>
+<body>
+<div class="box box1">
+    <div class="left"> margin布局 margin布局 margin布局 margin布局 margin布局</div>
+    <div class="right">margin布局 margin布局 margin布局 margin布局 margin布局</div>
+    <div class="content">margin布局 margin布局 margin布局 margin布局 margin布局</div>
+</div>
+
+<div class="box box2">
+    <div class="left"> position布局 position布局 position布局 position布局 position布局 position布局</div>
+    <div class="content"> position布局 position布局 position布局 position布局 position布局 position布局 position布局</div>
+    <div class="right"> position布局 position布局 position布局 position布局 position布局</div>
+</div>
+
+<div class="box box3">
+    <div class="left"> fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局</div>
+    <div class="content"> fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局</div>
+    <div class="right"> fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局 fixed布局</div>
+</div>
+
+<div class="box box4">
+    <div class="content"> 圣杯布局 圣杯布局 圣杯布局 圣杯布局 圣杯布局 圣杯布局 圣杯布局</div>
+    <div class="left"> 圣杯布局 圣杯布局 圣杯布局 圣杯布局 </div>
+    <div class="right"> 圣杯布局 圣杯布局 圣杯布局 圣杯布局 圣杯布局</div>
+</div>
+<br>
+<br>
+<div class="box box5">
+    <div class="content"><div class="center">  双飞翼布局  双飞翼布局  双飞翼布局  双飞翼布局  双飞翼布局  双飞翼布局</div></div>
+    <div class="left">  双飞翼布局  双飞翼布局  双飞翼布局  </div>
+    <div class="right">  双飞翼布局  双飞翼布局  双飞翼布局 </div>
+</div>
+</body>
+</html>
